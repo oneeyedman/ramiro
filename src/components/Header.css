@@ -1,0 +1,19 @@
+/* HEADER */
+.header {
+  background-color: #c4c4c4;
+}
+.header .app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.header__logo {
+  background: url(https://placehold.it/100x30/ffcc00) center no-repeat;
+  display: block;
+  height: 1px;
+  overflow:hidden;
+  padding-top: 29px;
+  width: 100px;
+}
+.header__button {}
