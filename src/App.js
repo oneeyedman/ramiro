@@ -3,9 +3,10 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 function setBodyClass(str) {
-  const body = document.body;
-  body.classList.add(str);
+	const body = document.body;
+	body.classList.add(str);
 }
+
 
 class App extends React.Component {
   constructor(props) {
@@ -49,7 +50,7 @@ class App extends React.Component {
     for (let i=0; i<total; i++) {
     buttons.push(<button data-loquesea={`paco ${i}`} onClick={this.setMyText}>Nº {i}</button>);
     }
-    return buttons;
+		return buttons;
   }
 
   render() {

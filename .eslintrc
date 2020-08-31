@@ -10,7 +10,7 @@
       "experimentalObjectRestSpread":true
     }
   },
-  "extends": "eslint:recommended",
+  "extends": "react-app",
   "rules": {
     "indent": [2, "tab"],
     "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
